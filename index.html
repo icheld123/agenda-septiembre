@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AGENDA DE EGRESADOS: AGOSTO</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/calendar.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Noto+Sans:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize_reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="loadmore.js"></script>
+</head>
+
+<body class="contenedor">
+    <header>
+        <div class="navbar"></div>
+    </header>
+    <div id="contenedor">
+        <div id="main">
+            <h4 class="index-sub">¡Actívate y aprovecha de los espacios de formación que hemos dispuesto para ti!</h4>
+            <div class="img-mes">
+                <img src="img/mes.png" alt="Imagen con texto julio 2021">
+            </div>
+            <div id="img-index">
+                <img src="img/egresados.png" alt="Grupo de profesionales">
+            </div>
+            <a href="comunicate.html" id="comunicate" target="_blank">
+                <img src="img/comunicate1.png" alt="Clic para comunicarte con e-monitores" />
+            </a>
+        </div>
+    </div>
+    <footer class="footer">
+        <iframe src="imports/footer.html"
+            onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+    </footer>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(function () {
+        $(".navbar").load("imports/navbar.html");
+    });
+</script>

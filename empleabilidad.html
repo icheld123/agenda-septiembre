@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AGENDA DE EGRESADOS: SEPTIEMBRE</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/calendar.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Noto+Sans:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize_reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="loadmore.js"></script>
+</head>
+
+<body class="contenedor">
+    <header>
+        <div class="navbar"></div>
+    </header>
+    <div id="contenedor">
+        <div id="main">
+            <h3>Estos son los talleres de orientación ocupacional que tendremos para ti este mes.</h3>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page1">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <div class="banner">
+                                <img src="img/empleabilidad.jpeg" alt="Evento via zoom" />
+                            </div>
+                            <p>Taller de orientación ocupacional sobre tips para una entrevista laboral exitosa.</p>
+                            <p class="fecha">Fecha: 23 de septiembre de 2021</p>
+                            <p class="fecha">Hora: 06:15 p.m</p>
+                            <div id="botones-evento">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScuPlB_A-pWBnW0HSf0xsaYFKzl-cobnbD2Srw3nd6k8pLarA/viewform"
+                                target="_blank" id="botones"
+                                class="boton boton-amarillo d-block">Inscribirse</a>
+                                <div id="via-evento">
+                                    <a href="https://www.youtube.com/user/universidadunad" id="" target="_blank"><img
+                                            src="img/youtube.png" alt="Evento via youtube" class="thumbnails" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 id="hashtag"><i>#SigamosEnContacto.</i></h3>
+    <footer class="footer">
+        <iframe src="imports/footer.html"
+            onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+    </footer>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(function () {
+        $(".navbar").load("imports/navbar.html");
+    });
+</script>

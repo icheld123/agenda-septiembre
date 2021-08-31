@@ -1,0 +1,407 @@
+html {
+    background: #F5F9FF;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+/* Encabezado */
+#encabezado {
+	width: 92.1%;
+    height: 8rem;
+	top: 0;
+	margin: 0;
+	padding: 0 2rem 2rem;
+	background-image: linear-gradient(to left, #2274F2 ,#ffffff);
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+#h1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 2rem;
+	color: #000000;
+    margin: 3.5rem 0 1.5rem 0.2rem;
+	line-height: 1;
+}
+h2{
+	text-align: center;
+}
+#encabezado img {
+	margin: 1.5rem 1rem 0 -0.5rem;
+	max-width: 100rem;
+	height: auto;
+}
+#texto-header{
+	font-weight:lighter;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+/* Barra de navegación Botón dropdown*/
+.navbar {
+	margin-top: -2rem;
+	overflow: hidden;
+	background-color: #2274F2;
+}
+.navbar a {
+	float: left;
+	font-size: 1rem;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	padding: 1rem 0.5rem;
+	text-decoration: none;
+}
+#boton-vermas{
+	color: #F8712E;
+}
+#boton-vermas:hover{
+	cursor: pointer;
+	color: #F8712E;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 700; 
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1.1rem;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #FFB439;
+	color: black;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFB439;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	float: none;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #F8712E;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+#jueves{
+	color: #336BFF!important;
+}
+
+/* Contenido de body */
+#main {
+	background: #fff;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+.contenedor {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+	margin: 1rem auto;
+	max-width: 50rem;
+	padding: 1rem auto;
+	background: #fff;
+	border-radius: 1rem;
+}
+#titulo {
+    font-size: 120%;
+	margin: 1rem;
+	padding: 1rem 2rem;
+    color: #222;
+    line-height: 1.3;
+}
+h3,h4{
+	color: #000000;
+	text-align: center;
+}
+h4{
+	margin-top: 1rem;
+}
+#hashtag {
+	font-weight: 600;
+    color: #F8712E;
+}
+/* Img del body */
+#img-index img{
+	width: 50%;
+	display: block;
+	margin: 1rem auto 0;
+}
+.img-mes img{
+	width: 70%;
+	display: block;
+	margin: -1em auto -13em;
+}
+#comunicate img{
+	max-width: 23%;
+	margin: -2rem auto;
+	display: block;
+}
+/* Botones de anuncios */
+#botones, .boton {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	margin-top: 0.5rem;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	border:none;
+}	
+.boton:hover {
+	cursor: pointer;
+	background-color: #F8712E;
+	color: white;
+}
+.boton-amarillo {
+	background-color: #FFB439;
+	border-radius: 1rem;
+}
+#via-evento img{
+	margin: 0.5rem auto -0.5rem;
+	max-width: 3rem;
+	display: inline-block;
+}
+/* Contenedor del anuncio */
+#titulo-monitores{
+	margin-top: -1.5rem;
+	margin-bottom: 0.5rem;
+	color: #F8712E;
+}
+#lider, #post-contacto{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#texto-lider{
+	color: #000000;
+	margin: 1rem;
+}
+#titulo-monitores{
+	margin-top: 1rem;
+}
+.contenedor-anuncio{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#anuncio {
+	color: #000000;
+	flex-basis: calc(33.3% - 4rem);
+	border: 1px solid #B3B6B7;
+	border-radius: 1rem;
+	background: #F5F9FF;
+	padding: 0.5rem;
+	margin: 2rem;
+}
+.banner-invil img{
+	max-width: 50%;
+	border-radius: 1rem;
+}
+.banner img{
+	max-width: 100%;
+	border-radius: 1rem;
+}
+#contacto{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#post-contacto, .contenido-anuncio{
+	width: 28%;
+	height: 50%;
+	border: 1px solid #B3B6B7;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+	padding: 0.5rem;
+}
+#post-contacto p{
+	margin-left: 0.5rem;
+	font-size: 70%;
+}
+#datos-contacto{
+	display: flex;
+	flex-wrap:nowrap;
+}
+.nombre{
+	font-size: 1rem!important;
+	font-weight: 800;
+	color: #2274F2;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.zona{
+	font-size: 1rem!important;
+	font-weight: 800;
+	color: #F8712E;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#icono-contacto{
+	margin-top: 0.6rem;
+}
+/* Contenido de anuncios */
+#contenido-anuncio {
+	text-align: center;
+}
+.contenido-anuncio h3 {
+	margin: 0;
+	word-spacing: -0.5rem;
+} 
+.contenido-anuncio p {
+	margin: 0;
+    font-weight: 700;
+}
+.fecha {
+	color: #2274F2;
+	font-weight: 700;
+}
+.invil-niños{
+	color: #20C200;
+	font-weight: 700;
+}
+.invil-frances{
+	color: #C23500;
+	font-weight: 700;
+}
+div.logo-zoom img{
+	max-width: 3.3rem;
+}
+p.codigo-acceso{
+	color: #F8712E!important;
+	font-weight: 900!important;
+}
+.contenedor-anuncios {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#botones-evento{
+	display: flex;
+	flex-wrap:nowrap;
+	margin: auto 16rem;
+}
+#botones-evento #botones{
+	padding-top: 1rem;
+}
+#botones-evento a{
+	margin-right: 1rem;
+}
+/* Paginación de los anuncios */
+#paginacion {
+	margin-top: -0.5rem;
+	text-align: center;
+}
+#paginacion a {
+	font-size: 1rem;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5rem 1.5rem;
+	margin: 1rem auto;
+}
+.paginacion a:hover {
+	background-color: #F8712E;
+	color: black;
+}
+/* Footer y contenido de footer */
+footer{
+	margin-top: 1rem;
+	text-align: center;
+	font-weight: 800;
+	color: #000000;
+}
+
+/* ------------------------------------------MEDIA QUERIES----------------------------------------------------- */
+@media only screen and (max-width:70rem) {
+	.contenedor {
+		max-width: 95%;
+	}
+	#encabezado{
+		width: 93.14%;
+	}
+	#texto-header #hashtag{
+		font-size: 1rem;
+	}
+	.navbar{
+		margin-top: -1rem;
+	}
+	.navbar a {
+		font-size: 1.2rem;
+		font-weight: 700;
+		padding: 0.5rem;
+	}
+	.dropdown .dropbtn {
+		margin-top: -0.5rem;
+		font-size: 1.2rem;
+	}
+	.dropdown .dropbtn a {
+		margin-top: -0.5rem;
+	}
+	h3{
+		font-size: 1.5rem;
+		margin: 1rem 0;
+	}
+	#hashtag{
+		font-size: 1.5rem;
+		margin-top: -1rem;
+	}
+	h4{
+		font-size: 1.4rem;
+		margin: 1rem;
+	}
+	#comunicate img{
+		width: 25%;
+		display: block;
+		margin: -2rem auto;
+	}
+	#anuncio {
+		font-size: 1.5rem;
+	}	
+	#botones-evento{
+		margin: auto 19rem;
+	}
+	#contenido-anuncio p.nombre, .zona{
+		font-size: 1.2rem!important;
+	}
+	#post-contacto{
+		max-width: 100%;
+		padding: 0.5rem 4rem;
+		margin: 1rem auto;
+		display: block;
+	}	
+	#datos-contacto{
+		margin-top: -0.5rem;
+		margin-left: -1.5rem;
+		font-size: 1.2rem;
+	}	
+	#datos-contacto p{
+		margin-top: 0.5rem;
+		font-size: 1.2rem;
+	}	
+	footer{
+		font-size: 1.5rem;
+	}
+}
